@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+  <title>Player Demos - Basic Responsive Content</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <style>
+  .video-container {
+    max-width:720px;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+  .video-container:after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+  }
+  .video-container .video-js {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .bc-player-default_default {
+      width: 657px;
+      height: 369px;
+    }
+    .noButton {
+        display: none;
+    }
+     .toggleButton {
+        margin-top: 300px !important;
+        margin-left: 220px !important;
+        background-color: #e9222c !important;
+        background-image: -webkit-linear-gradient(top, #e9222c, #d71319) !important;
+        font-family: ColesHapticBold, Arial, Helvetica, sans-serif !important;
+        font-size: 1.21429em !important;
+        padding: 7px 22px 7px !important;
+        color: #FDF3F4;
+        width: 206px !important;
+        position: absolute !important;
+        border-radius: 10px !important;
+        display: block !important;
+     }
+   .vjs-marker {
+     width: 0.5em;
+     height: 0.5em;
+     background-color: #e9222c;
+     border-radius: 50%;
+     cursor: pointer;
+     position: absolute;
+     top: -.125em;
+   }
+   .vjs-progress-control:hover .vjs-marker {
+     width: 1.5em;
+     height: 1.5em;
+     top: 0;
+     margin-left: -0.5em;
+   }
+  </style>
+
+
+  <script>document.createElement('video')</script>
+</head>
+<body>
+
+
+ <video 
+ id="player"
+ data-video-id="5805471426001" 
+data-account="5795838424001" 
+data-player="default" 
+data-embed="default" 
+data-application-id 
+class="video-js" 
+controls></video>
+
+
+<script src="//players.brightcove.net/5795838424001/default_default/index.min.js"></script>
+
+<script type="text/javascript">
+        videojs('player').ready(function(){
+          var _player = this;
+          //continue button framework
+            newButton = document.createElement("div");
+            newButton.className = "noButton";
+            newButton.setAttribute("id", "continueButton");
+            newButton.innerHTML = "continue to next step";
+            _player.el().appendChild(newButton);
+          
+          _player.on('loadstart',function(){
+  if(_player.mediainfo.cue_points.length) {
+    
+    for(var i=0; i<_player.mediainfo.cue_points.length; i++) {
+      var _cue = _player.mediainfo.cue_points[i];
+      if(_cue.name=="Step") {
+        
+        var _marker = videojs.createEl('div',{className: 'vjs-marker'});
+        _marker.setAttribute('data-time',_cue.time);
+        _marker.setAttribute('data-Step',_cue.metadata);
+        _marker.style.left = Math.round(_cue.time/_player.mediainfo.duration*100) + '%';
+        _player.controlBar.progressControl.el().appendChild(_marker);
+      }
+    }
+  }
+});
+          _player.on('play',function(){
+            console.log(_player.mediainfo.cue_points);
+            var cuePoints = _player.mediainfo.cue_points;
+            setInterval(function(){
+            // loop through the cue cue_points
+              cuePoints.forEach(function(cue){
+                var cuetime=Math.round(cue.time*100)/100
+                var currentTime=Math.round(_player.currentTime()*100)/100
+                if (cuetime==currentTime) {
+                  _player.pause();
+                  console.log('stop here');
+            //toggle continue button to appear on cue cue_points
+                  document.getElementById("continueButton").className = "toggleButton";
+                }
+              });
+            }, 10);
+            //continue playing
+            newButton.addEventListener('click', function (e) {
+              _player.play();
+              document.getElementById("continueButton").className = "noButton";
+            }, false);
+          });
+        });
+          
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
