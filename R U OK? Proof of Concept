@@ -1,0 +1,1510 @@
+<head>
+
+<script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflLq-1W7/www-widgetapi.js" async=""></script>
+
+<script src="https://connect.facebook.net/signals/config/1929830787258043?v=2.8.24&amp;r=stable" async=""></script>
+
+<script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+
+<script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+
+<script>
+        try {
+    if(navigator.serviceWorker && navigator.serviceWorker.getRegistrations && location.protocol === 'https:') {
+        // remove all service workers
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            if(registrations && registrations.length) {
+                console.log('unregistering service workers')
+                registrations.forEach(function(registration) {
+                    registration.unregister();
+                });
+            }
+         });
+        // clear caches
+        if(caches) {
+            caches.keys().then(function(keyList) {
+                if(keyList && keyList.length) {
+                    console.log('deleting caches')
+                    keyList.forEach(function(key) {
+                        if (key && key.indexOf('druntime') === 0) {
+                            caches.delete(key);
+                        }
+                    });
+                }
+              })
+        }
+    }
+} catch (err) {
+    // not a secured location
+}</script>
+    
+<style>
+.fa-play:before  {
+    font-family: FontAwesome !important;
+}
+.video-js .vjs-mute-control .vjs-icon-placeholder, .vjs-icon-volume-high {
+    font-family: VideoJS !important;
+}
+span.vjs-icon-placeholder {
+    font-family: VideoJS !important;
+}
+.span:before {
+  font-family: VideoJS !important;
+}
+@media (max-width: 770px) {
+#\31 277945669 {
+    display: none !important;
+}
+#\31 546762041 {
+    display: none !important;
+}
+.bcg-main-nav-close {
+    display: block !important;
+    position: absolute;
+    width: 19px !important;
+    height: 19px;
+    top: 15px;
+    left: 90%;
+    cursor: pointer;
+}
+.dmDesktopBody .dmRespRow .large-8, .dmDesktopBody .dmRespDesignRow .large-8 {
+    width: 39.66667% !important;
+}
+#\31 385340628 {
+    display: none !important;
+}
+.dmDesktopBody .dmRespRow .large-4, .dmDesktopBody .dmRespDesignRow .large-4 {
+    width: 35.33333% !important;
+}
+#\31 645323797 {
+    margin-left: 50% !important;
+}
+#\31 598566096 {
+    width: 120%!important;
+}
+.main-nav {
+    margin-top: 4px !important;
+}
+.main-header-logo {
+    margin-top: 28px !important;
+}
+}
+</style>
+
+<!-- ========= CSS Section ========= -->
+<!-- Foundation CSS -->
+<link rel="stylesheet" type="text/css" href="https://www.ruok.org.au/_dm/s/rt/dist/css/d-css-foundation.min.css?version=2018-07-31T12_23_37">
+
+<!-- Google Fonts Include -->
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Amiko:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Roboto:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Arvo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Roboto:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Oswald:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Eater:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Abril+Fatface:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Dosis:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Lobster+Two:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Lobster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext">
+
+<link rel="stylesheet" type="text/css" href="https://dd-cdn.multiscreensite.com/fonts/additional-fonts.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://www.ruok.org.au/_dm/s/rt/dist/css/css-font-package.min.css?version=2018-07-31T12_23_37">
+
+<link rel="stylesheet" type="text/css" href="https://www.ruok.org.au/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css?version=2018-07-31T12_23_37">
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="//irp-cdn.multiscreensite.com/22b3e3c9/files/22b3e3c9_1.min.css?v=1856">
+
+<link type="text/css" rel="stylesheet" href="https://www.ruok.org.au/_dm/s/rt/css/runtime-ie-11-fix.css?version=2018-07-31T12_23_37">
+
+
+<!-- Page CSS -->
+<link id="homeCssLink" type="text/css" rel="stylesheet" href="//irp-cdn.multiscreensite.com/22b3e3c9/files/22b3e3c9_home_1.min.css?v=1856">
+
+
+<!--[if IE 7]><style>.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}</style><![endif]-->
+<!--[if IE 8]><style>.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}</style><![endif]-->
+
+
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-cssvwunit-flexbox-flexboxlegacy-flexboxtweener-flexwrap-passiveeventlisteners-supports-svg-setclasses-cssclassprefix:dm- !*/
+!function(e,t,n){function r(e,t){return typeof e===t}function s(){var e,t,n,s,o,i,a;for(var l in w)if(w.hasOwnProperty(l)){if(e=[],t=w[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(s=r(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)i=e[o],a=i.split("."),1===a.length?Modernizr[a[0]]=s:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=s),C.push((s?"":"no-")+a.join("-"))}}function o(e){var t=x.className,n=Modernizr._config.classPrefix||"";if(b&&(t=t.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(r,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),b?x.className.baseVal=t:x.className=t)}function i(e,t){return!!~(""+e).indexOf(t)}function a(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):b?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function l(){var e=t.body;return e||(e=a(b?"svg":"body"),e.fake=!0),e}function f(e,n,r,s){var o,i,f,u,d="modernizr",p=a("div"),c=l();if(parseInt(r,10))for(;r--;)f=a("div"),f.id=s?s[r]:d+(r+1),p.appendChild(f);return o=a("style"),o.type="text/css",o.id="s"+d,(c.fake?c:p).appendChild(o),c.appendChild(p),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(t.createTextNode(e)),p.id=d,c.fake&&(c.style.background="",c.style.overflow="hidden",u=x.style.overflow,x.style.overflow="hidden",x.appendChild(c)),i=n(p,e),c.fake?(c.parentNode.removeChild(c),x.style.overflow=u,x.offsetHeight):p.parentNode.removeChild(p),!!i}function u(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(t,n,r){var s;if("getComputedStyle"in e){s=getComputedStyle.call(e,t,n);var o=e.console;if(null!==s)r&&(s=s.getPropertyValue(r));else if(o){var i=o.error?"error":"log";o[i].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else s=!n&&t.currentStyle&&t.currentStyle[r];return s}function p(t,r){var s=t.length;if("CSS"in e&&"supports"in e.CSS){for(;s--;)if(e.CSS.supports(u(t[s]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var o=[];s--;)o.push("("+u(t[s])+":"+r+")");return o=o.join(" or "),f("@supports ("+o+") { #modernizr { position: absolute; } }",function(e){return"absolute"==d(e,null,"position")})}return n}function c(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function v(e,t,s,o){function l(){u&&(delete P.style,delete P.modElem)}if(o=r(o,"undefined")?!1:o,!r(s,"undefined")){var f=p(e,s);if(!r(f,"undefined"))return f}for(var u,d,v,m,g,y=["modernizr","tspan","samp"];!P.style&&y.length;)u=!0,P.modElem=a(y.shift()),P.style=P.modElem.style;for(v=e.length,d=0;v>d;d++)if(m=e[d],g=P.style[m],i(m,"-")&&(m=c(m)),P.style[m]!==n){if(o||r(s,"undefined"))return l(),"pfx"==t?m:!0;try{P.style[m]=s}catch(h){}if(P.style[m]!=g)return l(),"pfx"==t?m:!0}return l(),!1}function m(e,t){return function(){return e.apply(t,arguments)}}function g(e,t,n){var s;for(var o in e)if(e[o]in t)return n===!1?e[o]:(s=t[e[o]],r(s,"function")?m(s,n||t):s);return!1}function y(e,t,n,s,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+T.join(i+" ")+i).split(" ");return r(t,"string")||r(t,"undefined")?v(a,t,s,o):(a=(e+" "+z.join(i+" ")+i).split(" "),g(a,t,n))}function h(e,t,r){return y(e,n,n,t,r)}var w=[],S={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){w.push({name:e,fn:t,options:n})},addAsyncTest:function(e){w.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var C=[],x=t.documentElement,b="svg"===x.nodeName.toLowerCase();Modernizr.addTest("svg",!!t.createElementNS&&!!t.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect);var _="Moz O ms Webkit",T=S._config.usePrefixes?_.split(" "):[];S._cssomPrefixes=T;var E={elem:a("modernizr")};Modernizr._q.push(function(){delete E.elem});var P={style:E.elem.style};Modernizr._q.unshift(function(){delete P.style});var z=S._config.usePrefixes?_.toLowerCase().split(" "):[];S._domPrefixes=z,S.testAllProps=y,S.testAllProps=h,Modernizr.addTest("flexbox",h("flexBasis","1px",!0)),Modernizr.addTest("flexboxlegacy",h("boxDirection","reverse",!0)),Modernizr.addTest("flexboxtweener",h("flexAlign","end",!0)),Modernizr.addTest("flexwrap",h("flexWrap","wrap",!0));var N="CSS"in e&&"supports"in e.CSS,j="supportsCSS"in e;Modernizr.addTest("supports",N||j);var A=S.testStyles=f;A("#modernizr { width: 50vw; }",function(t){var n=parseInt(e.innerWidth/2,10),r=parseInt(d(t,null,"width"),10);Modernizr.addTest("cssvwunit",r==n)}),Modernizr.addTest("passiveeventlisteners",function(){var t=!1;try{var n=Object.defineProperty({},"passive",{get:function(){t=!0}});e.addEventListener("test",null,n)}catch(r){}return t}),s(),o(C),delete S.addTest,delete S.addAsyncTest;for(var k=0;k<Modernizr._q.length;k++)Modernizr._q[k]();e.Modernizr=Modernizr}(window,document);</script>
+<script>
+    var isWLR = true;
+</script>
+
+
+<!-- Custom Widgets js functions map -->
+<script>
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+</script>
+<script type="text/javascript">
+    var version = "3.5.5";
+    var build = "2018-07-31T12_23_37";
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2018-07-31T12_23_37";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+        }
+    }
+    buildEditorParent();
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- End Load jQuery --><script type="text/javascript">
+    window.popups =
+    [{"title":"subscribe","url":"/subscribe1","options":{"backgroundColor":"#FFFFFF","borderRadius":"5","width":"447","overlayColor":"rgba(195, 195, 195,0.5)","height":"381","animation":"fadeIn"},"name":"subscribe1"}]</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.0';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    
+    rtCommonProps["common.mapsProvider"] = 'mapbox';
+    rtCommonProps["common.geocodeProvider"] = 'here';
+</script>
+
+<script src="https://www.ruok.org.au/_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js?version=2018-07-31T12_23_37"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://www.ruok.org.au/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js?version=2018-07-31T12_23_37"></script>
+<script src="https://www.ruok.org.au/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js?version=2018-07-31T12_23_37"></script>
+
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    jQuery.DM.updateWidth();
+    
+});
+$(window).bind("orientationchange", function (e) {
+    jQuery.DM.updateWidth();
+    jQuery.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    jQuery.DM.updateWidth();
+    
+});
+</script>
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,600,700,800,300" rel="stylesheet" type="text/css">
+
+
+  
+  </script>
+  <script src="https://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.min.js">
+  </script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+  
+<!--<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUC7m0Ju9UP1r0z6WyZQJfiSmPg-v5Ckw"> </script> -->  
+
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js">
+  
+  </script>
+  <script type="text/javascript">
+  /*$('.addclass').click( function() {
+    $("#1009586992").toggleClass("notactive");
+} );*/
+  
+  
+  </script>
+  <script src="//assets.juicer.io/embed-no-jquery.js" type="text/javascript">
+  
+  </script>
+  <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css">
+  <script>
+      $(document).ready(function(){ 
+          
+          
+      // Parent function
+      $(function() {
+          
+          
+          
+          // Challenges generator
+          
+     function challengePopUp(){ 
+    var challenges = '[ { "challengetitle": "Your challenge is", "challengetext": "Call someone you\'ve lost touch with and reconnect.", "background": "ffde6a", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Tell someone special you love them. In person.", "background": "0071dc", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Visit a family member and tell them how much they mean to you.", "background": "7bdaff", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Take someone you\'d like to spend more time with out for a coffee.", "background": "2dcdcd", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Take time out to share a meal with three people you work, study or play with.", "background": "389a6f", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Share a cuppa and a chat with your neighbours.", "background": "1fce35", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Write a letter to someone special and tell them why you think they\'re a legend!", "background": "00ff69", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Go give a mate or relative a big hug.", "background": "ff8600", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Share a photo, video or message to encourage others to ask R U OK? of each other.", "background": "ff3f2c", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Make a commitment to check in with someone who might be going through a tough time.", "background": "870f4b", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Memorise these 4 steps: Ask, Listen, Encourage action, Check in. Now practice them.", "background": "f38ede", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": " Treat someone to a meal and chat about their day.", "background": "bf66cb", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Ask someone to share with you the best bit of advice they\'ve ever received.", "background": "00428c", "color": "fff" },{ "challengetitle": "Your challenge is", "challengetext": "Call a loved one who lives far away and tell them you\'re thinking of them.", "background": "00428c", "color": "fff" } ]', challengesParsed;
+   //var challenges = '[ { "challengetitle": "Your challenge is", "challengetext": "Find something yellow to add to your outfit. Then persuade a mate to do the same.", "background": "ffde6a", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Go give a mate or relative a big hug.", "background": "0071dc", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Treat someone to a tasty treat and chat about their day.", "background": "7bdaff", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Start a dance party wherever you are.", "background": "2dcdcd", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Ask someone to share with you the best bit of advice they have ever received.", "background": "389a6f", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Give someone you care about a flower.", "background": "1fce35", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Brighten up someone\'s desk or corner with yellow streamers and balloons.", "background": "00ff69", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Find 5 people and create the letters \'RUOK?\' with as much creativity as possible.", "background": "ff8600", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Create a new handshake or way to share \'hi\'.", "background": "ff3f2c", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Tell someone you love that you love them.", "background": "870f4b", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Using post-it notes and colorful pens, write happy words and ideas and stick them all over the room.", "background": "f38ede", "color": "000" }, { "challengetitle": "Your challenge is", "challengetext": "Call someone you have lost touch with.", "background": "bf66cb", "color": "fff" }, { "challengetitle": "Your challenge is", "challengetext": "Contact a relative who lives interstate or overseas.", "background": "00428c", "color": "fff" } ]', challengesParsed;
+   
+   
+     challengesParsed = JSON.parse(challenges);
+   
+   
+   function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min)) + min;
+   }
+   
+   
+   var cur_rand = getRandomInt(0,13);
+    $('.getchallenge h4').text(challengesParsed[cur_rand].challengetitle + ': ');
+    
+    $('.getchallenge .challengetext').text(challengesParsed[cur_rand].challengetext);
+    
+    $('.getchallenge').css({'background': '#'+challengesParsed[cur_rand].background, 'color': '#'+challengesParsed[cur_rand].color });
+   };
+   
+   $('.getinvolved').click(function(e) {
+       e.preventDefault();
+     challengePopUp();
+     $('.getchallenge, .dmform').addClass('visible_click').removeClass('remove_opa');
+   });
+     $('.getchallenge span').click(function(){
+         $('.getchallenge').addClass('remove_opa').removeClass('visible_click');
+         $('.dmform').addClass('remove_opa');
+         $('.u_1677553091').removeClass('remove_opa');
+         
+     });
+     
+          
+ 
+ // Keeper's feed;
+ //var fakefeed = '[ { "name": "Damien", "location": "Adelaide, SA", "started": "2016-08-30 09:30:18" }, { "name": "Anastasia", "location": "Waverley, NSW", "started": "2016-09-13 15:14:39" }, { "name": "Scott", "location": "Waverley, NSW", "started": "2016-09-19 10:35:13" } ]';
+ var fakefeed = '[{"name": "Scott","started": "2016-09-19 10:35:13","location": "Waverley, NSW"},{"name": "Brigid","started": "2016-10-04 09:14:42","location": "Kings Plains, NSW"},{"name": "Tony","started": "2016-11-20 11:39:44","location": "Saint Kilda West, VIC"},{"name": "Anastasia","started": "2016-12-24 09:58:53","location": "Adelaide, SA"},{"name": "Brendan","started": "2017-01-24 12:21:05","location": "Adelaide, SA"},{"name": "Kim","started": "2017-02-09 13:07:59","location": "Adelaide, SA"}]';
+ 
+ 
+  var api1 = "https://alexa.fusion.com.au/ruok/api/keepers";
+        //console.log(typeof(api1));
+        $.ajax({
+          crossOrigin: true,
+          url: api1,
+          context: {},
+          success: function(data) {
+           
+           
+           var f = JSON.parse(fakefeed);
+           var feed_size = f.length;
+          //var feed_size = data.length;
+         
+           jsondata(fakefeed);
+           
+           /*if (feed_size >= 3) {
+              jsondata(data);
+              
+           } else {
+             jsondata(fakefeed);
+             
+           }*/
+           
+          }
+        })
+        .done(function( data, textStatus, jqXHR ) {
+          //alert(data);
+        });
+      
+  // Get Qmark feed 
+    var api2 = "https://alexa.fusion.com.au/ruok/api/locations";
+    
+  
+      $.ajax({
+          crossOrigin: true,
+          url: api2,
+          context: {},
+          success: function(data) {
+            locationFeed(data);
+            initMap(data);
+          }
+        })
+        .done(function( data, textStatus, jqXHR ) {
+          //alert(data);
+        });
+  
+  function locationFeed(data) {
+    $('.qmark-journey').text(data.distance);
+  }
+  
+  
+  // End Qmark feed
+  
+  /* BRYAN-REMOVED-THIS
+  
+  //Maps
+  function initMap(data) {
+    
+      
+              // Google Maps
+        var jData = data;
+        //console.log(data.locations.length);
+        
+        var dataArray = new Array(); 
+        var len = data.locations.length;
+        for (var j = 0; j < len; j++) {
+          //console.log(jData.locations);
+          dataArray[j] = {
+            lat: jData.locations[j].lat,
+            lng: jData.locations[j].lon
+          };
+        }
+        
+        var flightPlanCoordinates = dataArray;
+       /*var flightPlanCoordinates = [
+          {
+            "lat": -33.893834,
+            "lng": 151.271162,
+            "date": "2016-09-08 10:06:07"
+          },
+          {
+            "lat": -33.899082,
+            "lng": 151.255255,
+            "date": "2016-09-08 14:26:33"
+          },
+          {
+            "lat": -33.914283,
+            "lng": 151.259475,
+            "date": "2016-09-11 09:31:54"
+          },
+          {
+            "lat": -33.947116,
+            "lng": 151.256696,
+            "date": "2016-09-11 09:57:09"
+          },
+          {
+            "lat": -33.897291,
+            "lng": 151.264465,
+            "date": "2016-09-11 12:32:41"
+          },
+          {
+            "lat": -33.899082,
+            "lng": 151.255255,
+            "date": "2016-09-11 12:46:05"
+          },
+          {
+            "lat": -33.86769,
+            "lng": 151.176359,
+            "date": "2016-09-23 16:50:43"
+          },
+          {
+            "lat": -33.886557,
+            "lng": 151.138239,
+            "date": "2016-09-23 18:02:37"
+          },
+          {
+            "lat": -32.263139,
+            "lng": 148.582943,
+            "date": "2016-09-25 13:08:38"
+          }
+          ];*/
+          
+          /* bryan-removed-this
+          
+      var latArray = new Array();
+        
+        for (x = 0; x < flightPlanCoordinates.length; x++) {
+          latArray[x] = flightPlanCoordinates[x].lat;
+        }
+        
+        
+        var longArray = new Array();
+        
+        for (x = 0; x < flightPlanCoordinates.length; x++) {
+          longArray[x] = flightPlanCoordinates[x].lng;
+        }
+        
+       
+        Array.min = function( array ){
+        return Math.min.apply( Math, array );
+      };
+      
+        Array.max = function( array ){
+        return Math.max.apply( Math, array );
+      };
+      
+      var minimum = Array.min(latArray);
+      var maximum = Array.max(latArray);
+      var med = (minimum + maximum) / 2; 
+      
+      var minimumlong = Array.min(longArray);
+      var maximumlong = Array.max(longArray);
+      var medlong = (minimumlong + maximumlong) / 2; 
+      
+        var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 7,
+        center: {lat: med, lng: medlong},
+        mapTypeId: 'terrain'
+        });
+      
+        var flightPlanCoordinates1 = [
+        {lat: 37.772, lng: -122.214},
+        {lat: 21.291, lng: -157.821},
+        {lat: -18.142, lng: 178.431},
+        {lat: -27.467, lng: 153.027}
+        ];
+        
+        var flightPath = new google.maps.Polyline({
+        path: flightPlanCoordinates,
+        geodesic: true,
+        strokeColor: '#000',
+        strokeOpacity: 1.0,
+        strokeWeight: 3
+        });
+      
+        flightPath.setMap(map);
+      }
+      
+      //$('.cont').click(function(){initMap();});
+      // End maps
+ bryan-removed-this  */ 
+  
+    // Get challenges completed 
+  var api3 = "https://alexa.fusion.com.au/ruok/api/challenges";
+    
+      $.ajax({
+          crossOrigin: true,
+          url: api3,
+          context: {},
+          success: function(data) {
+            challengeFeed(data);
+          }
+        })
+        .done(function( data, textStatus, jqXHR ) {
+          //alert(data);
+        });
+  
+  function challengeFeed(data) {
+    $('.challenges').text(data.total);
+  }
+  
+  // End challenges completed
+  
+  
+  
+    
+    
+       //Working Slide
+       $( function() {
+      $( "#slider" ).slider({
+       // values: 6,
+        range: "min",
+         min: 9,
+         max: 22,
+        /*value: 17,*/
+        slide: function(event, ui) {
+              
+            if(ui.value >= 0){
+              return false;                 
+            }
+          } 
+        });
+      
+        }); 
+        
+    
+   
+      var dataJson;
+      var selectedIndex = 0;
+      var jsonString;
+      function jsondata(jsonfilecontent) {
+          //console.log(jsonfilecontent);
+        jsonString = JSON.parse(jsonfilecontent);//jsonfilecontent;
+        //console.log(jsonString);
+     
+         var monthsKey = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"         
+         ];
+         
+     // Set counter
+      var currentIndex = 0,
+      itemAmt = jsonString.length,
+      imagePath = "https://irp-cdn.multiscreensite.com/22b3e3c9/dms3rep/multi/",
+      imageName = "350x375.jpg";
+    
+     for (var u = 1; u <= itemAmt; u++) { 
+      $('div.container').append('<div class="data_container"><img class="keeperImage" src="https://irp-cdn.multiscreensite.com/22b3e3c9/dms3rep/multi/08-10-John-350x375.jpg"/><span class="keeper-wrap"><p class="keeper_info"><span class="keeper">Keeper</span><span class="k_name"></span></p><p class="location"><span class="location-title"> Location </span><span class="keeper_location"></span></p></span><span class="circle-graph"></span><p class="keeper_date"></p></div>');
+      }
+      var items = $('.container div.data_container');
+         
+         
+      var starterCounter = itemAmt -1,
+      workingIndex = starterCounter,
+      workingIndex1 = itemAmt;
+        var dataJson = jsonString, monthRaw, sliderMonth;
+        var len = dataJson.length - 1, sliderPosition = 0;
+        
+        monthRaw = dataJson[len].started.substring(5,7), sliderMonth = parseInt(monthRaw);
+        
+            // Establish progress bar position
+      if (sliderMonth >= 10) {
+        sliderPosition = sliderMonth;
+        
+      } else if(sliderMonth == 9) {
+        sliderPosition = sliderMonth;
+        
+      } else {
+        sliderPosition = sliderMonth + 12;
+      }
+      
+      sliderPosition = 20;
+      $( "#slider" ).slider( "value", sliderPosition);
+      
+          
+              
+              function indexMover() {
+               var length1 = dataJson.length, workingDate = selectedIndex;
+               workingIndex = length1 + selectedIndex;
+               
+      // Get dates among other things        
+              
+              var started1 = dataJson[workingIndex].started.split(" "), fulldate = started1[0], currentdate, currentyear, 
+          fullDateString, 
+          st = dataJson[workingIndex].started,
+          st_one = dataJson[workingIndex-1].started,
+          st_two = dataJson[workingIndex-2].started;
+          //st_three = dataJson[workingIndex-3].started;
+          
+          
+          // Get a string of dates up to 4 days ago
+          var fullDateString = st.replace(/[^A-Z0-9]/ig, "-"), string_one = st_one.replace(/[^A-Z0-9]/ig, "-"), string_two = st_two.replace(/[^A-Z0-9]/ig, "-");/*, string_three = st_three.replace(/[^A-Z0-9]/ig, "-");*/
+          
+          // Get year month day of the last 3 days 
+          /*var th = string_three.substring(0,10),*/var tw = string_two.substring(0,10), one = string_one.substring(0,10), zero = st.substring(0,10);
+        
+          // get month as single digit for current day
+        var parts = fulldate.split("-"), mprefix = parts[1].substring(0,1), month;
+        
+           // get month as single digit for the last 3 days
+           
+         /* var previousDates3 = th.split("-"), mprefix3 = previousDates3[1].substring(0,1), month3,*/  
+         var previousDates2 = tw.split("-"), mprefix2 = previousDates2[1].substring(0,1), month2,
+         previousDates1 = one.split("-"), mprefix1 = previousDates1[1].substring(0,1), month1;
+      
+        // Get parts 
+        
+        /*var the_date3 = previousDates3[2],*/
+           var the_date2 = previousDates2[2],
+          the_date1 = previousDates1[2],
+           /* the_year3 = previousDates3[0],*/
+          the_year2 = previousDates2[0],
+          the_year1 = previousDates1[0];
+          
+  /*var currentdate3 = previousDates3[2],*/
+    var   currentdate2 = previousDates2[2],
+    currentdate1 = previousDates1[2];
+    
+  /*var currentYear3 = previousDates3[0],*/
+    var currentYear2 = previousDates2[0],
+    currentYear1 = previousDates1[0];
+          
+    //if (mprefix3==0){ month3=previousDates3[1].substring(1,2);}else{month3=month3=previousDates3[1];}
+    
+    if (mprefix2==0){ month2=previousDates2[1].substring(1,2);}else{month2=month2=previousDates2[1];}
+    
+    if (mprefix1==0){ month1=previousDates1[1].substring(1,2);}else{month1=month1=previousDates1[1];}
+    
+    //test 
+    //console.log(currentdate2 + ' ' + monthsKey[month2-1] + ' ' + currentYear2);
+        
+        
+        currentdate = parts[2];
+        currentyear = parts[0];
+          if (mprefix == 0){
+            month = parts[1].substring(1,2);
+                //console.log(month)
+          } else {
+            month = parts[1];
+          }
+      var todayFullDate = currentdate + " " + monthsKey[month-1] + " " + currentyear;
+              
+              
+              var counter = $('div.name-content').length;
+              //if (counter == 0) {
+            
+            //console.log(imagePath + month3 + "-"+ currentdate3 +'-'+dataJson[workingIndex-3].name/*.toLowerCase()*/+'-'+imageName);
+            
+         // Get images
+          
+          //$('.container div.data_container img.keeperImage').eq(workingIndex-3).attr('src',imagePath + th.substring(5) +'-'+dataJson[workingIndex-3].name/*.toLowerCase()*/+'-'+imageName).attr('onerror','this.src="https://irp-cdn.multiscreensite.com/22b3e3c9/dms3rep/multi/placeholder4-350x375.jpg";');
+           
+        $('.container div.data_container img.keeperImage').eq(workingIndex-2).attr({src:imagePath + tw.substring(5) +'-'+dataJson[workingIndex-2].name/*.toLowerCase()*/+'-'+imageName, onerror: 'this.src="https://irp-cdn.multiscreensite.com/22b3e3c9/dms3rep/multi/placeholder3-350x375.jpg";'});
+        
+        $('.container div.data_container img.keeperImage').eq(workingIndex-1).attr({src:imagePath + one.substring(5) +'-'+dataJson[workingIndex-1].name/*.toLowerCase()*/+'-'+imageName, onerror: 'this.src="https://irp-cdn.multiscreensite.com/22b3e3c9/dms3rep/multi/placeholder2-350x375.jpg";'});
+        
+        $('.container div.data_container.data_container img.keeperImage').eq(workingIndex).attr({src:imagePath + zero.substring(5) +'-'+dataJson[workingIndex].name/*.toLowerCase()*/+'-'+imageName, onerror: 'this.src="https://irp-cdn.multiscreensite.com/22b3e3c9/dms3rep/multi/placeholder1-350x375.jpg";'});
+        
+        // Get names
+          
+        //$('.container div.data_container p.keeper_info .k_name').eq(workingIndex-3).text(dataJson[workingIndex-3].name);  
+        $('.container div.data_container p.keeper_info .k_name').eq(workingIndex-2).text(dataJson[workingIndex-2].name);  
+        $('.container div.data_container p.keeper_info .k_name').eq(workingIndex-1).text(dataJson[workingIndex-1].name);  
+                 
+        $('.container div.data_container p.keeper_info .k_name').eq(workingIndex).text(dataJson[workingIndex].name);  
+        
+            
+              
+        // Get Locations
+        
+        //$('.container .keeper_location').eq(workingIndex-3).text(dataJson[workingIndex-3].location);  
+        $('.container .keeper_location').eq(workingIndex-2).text(dataJson[workingIndex-2].location);  
+        $('.container .keeper_location').eq(workingIndex-1).text(dataJson[workingIndex-1].location);  
+                 
+        $('.container .keeper_location').eq(workingIndex).text(dataJson[workingIndex].location);
+        
+        
+        
+        // Date 
+                //$('.container div.data_container p.keeper_date').eq(workingIndex-3).text(currentdate3 + " " + monthsKey[month3-1] + " " + currentYear3);  
+        $('.container div.data_container p.keeper_date').eq(workingIndex-2).text(currentdate2 + " " + monthsKey[month2-1] + " " + currentYear2);  
+        $('.container div.data_container p.keeper_date').eq(workingIndex-1).text(currentdate1 + " " + monthsKey[month1-1] + " " + currentYear1);  
+                 
+        $('.container div.data_container p.keeper_date').eq(workingIndex).text(todayFullDate);  
+              
+          
+      }
+          
+      //  }
+      
+      
+  
+       $(window).load(function(){
+        selectedIndex -= 1;
+        currentIndex -= 1;
+        indexMover();   
+        $('.next').attr('disabled','disabled');
+              //$('.container div.data_container').eq(2).css({'width':'400'});
+      //$('.container div.data_container').eq(-4).addClass('prevDisplay prevDisplay4 prevdisplayload2');
+      $('.container div.data_container').eq(-3).addClass('prevDisplay prevDisplay3 prevdisplayload');
+      $('.container div.data_container').eq(-2).addClass('prevDisplay prevDisplay2 prevDisplay2load');
+      $('.container div.data_container').eq(-1).addClass('prevDisplay prevDisplay1 currentImg');
+      
+    // Get names on load
+      //$('container div p.keeper_info .k_name').eq(workingIndex-3).text(dataJson[workingIndex-3].name);
+            $('.container div.data_container p.keeper_info .k_name').eq(workingIndex-2).text(dataJson[workingIndex-2].name);  
+      $('.container div.data_container p.keeper_info span.k_name').eq(workingIndex-1).text(dataJson[workingIndex-1].name);  
+                 
+      $('.container div.data_container p.keeper_info .k_name').eq(workingIndex).text(dataJson[workingIndex].name);
+      
+      
+    //  Get location 
+    
+    //$('.container div.data_container p.keeper_info .keeper_location').eq(workingIndex-3).text(dataJson[workingIndex-3].location);
+            $('.container div.data_container p.keeper_info .keeper_location').eq(workingIndex-2).text(dataJson[workingIndex-2].location); 
+      $('.container div.data_container p.keeper_info span.keeper_location').eq(workingIndex-1).text(dataJson[workingIndex-1].location); 
+                 
+      $('.container div.data_container p.keeper_info .keeper_location').eq(workingIndex).text(dataJson[workingIndex].location);
+              
+       });
+    
+      
+    function cycleItems() {
+      
+        var item = $('.container div.data_container').eq(selectedIndex);
+       
+          var prevItem1 = $('.container div.data_container').eq(currentIndex - 1);
+          var prevItem2 = $('.container div.data_container').eq(currentIndex - 2);
+          var prevItem3 = $('.container div.data_container').eq(currentIndex - 3);
+         //var prevItem4 = $('.container div.data_container').eq(currentIndex - 4);
+        //items.hide();
+        items.addClass('show_none');
+        items.removeClass('currentImg');
+        items.removeClass('prevDisplay prevDisplay1 prevDisplay2 prevDisplay3');
+        //item.css('display','inline-block');
+          item.addClass('currentImg');
+        prevItem1.addClass('prevDisplay');
+        prevItem2.addClass('prevDisplay prevDisplay1');
+        prevItem3.addClass('prevDisplay prevDisplay2');
+        //prevItem4.addClass('prevDisplay prevDisplay3');
+        
+        prevItem1.removeClass('show_none');
+        prevItem2.removeClass('show_none');
+        prevItem3.removeClass('show_none');
+        //prevItem4.removeClass('show_none');
+    }
+    
+  
+    $('.next').click(function() {
+      /*var selection = $( "#slider" ).slider( "value");
+      $( "#slider" ).slider( "value", selection + 1);*/
+        selectedIndex += 1;
+      currentIndex += 1;
+      $('.prev').removeAttr('disabled','disabled');
+      
+        if (currentIndex > itemAmt - 1) {
+        currentIndex = 0;
+        }
+        
+        if (currentIndex == 0) {
+          $(this).attr('disabled','disabled');
+         
+          
+        } 
+        indexMover();
+        
+      cycleItems();
+    });
+    
+    
+    $('.prev').click(function() {
+      /*var selection = $( "#slider" ).slider( "value");
+      $( "#slider" ).slider( "value", selection - 1);*/
+        //console.log($('.currentImg').index());
+    if ($('.currentImg').index() == 3) {
+        $(this).attr('disabled','disabled');
+      }
+        selectedIndex -= 1;
+        currentIndex -= 1;
+        if (currentIndex < 0) {
+        currentIndex = itemAmt - 1;
+        }
+       
+        $('.next').removeAttr('disabled','disabled');
+        if (currentIndex == itemAmt - 1) {
+           //$( "#slider" ).slider( "value", currentIndex );
+        }
+        
+        if (currentIndex == 0) {
+          $(this).attr('disabled','disabled');
+        //  console.log("we are at the end");
+        } 
+        
+        
+        
+        indexMover();
+        cycleItems();
+      });
+      
+      };
+     });
+     
+     
+     
+});
+  
+  
+    </script>
+  <script>
+  // Find all iframes
+var $iframes = $( "iframe" );
+ 
+// Find &#x26; save the aspect ratio for all iframes
+$iframes.each(function () {
+  $( this ).data( "ratio", this.height / this.width )
+    // Remove the hardcoded width &#x26; height attributes
+    .removeAttr( "width" )
+    .removeAttr( "height" );
+});
+ 
+// Resize the iframes when the window is resized
+$( window ).resize( function () {
+  $iframes.each( function() {
+    // Get the parent container&#x27;s width
+    var width = $( this ).parent().width();
+    $( this ).width( width )
+      .height( width * $( this ).data( "ratio" ) );
+  });
+// Resize to fix all iframes on page load.
+}).resize();
+  
+ 
+  
+  </script>
+
+ <style type="text/css">
+.dmDesktopBody .dmPhotoGallery:not(.newPhotoGallery) .photoGalleryViewAll, .dmTabletBody .dmPhotoGallery:not(.newPhotoGallery) .photoGalleryViewAll {
+  background: none;
+  border: none;
+  padding: 3px 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+  color: #4d4d4d;
+  line-height: normal;
+  box-shadow: 0 -2px 0 0;
+  display: block;
+  margin: 40px 0;
+  text-align: left; }
+  .dmDesktopBody .dmPhotoGallery:not(.newPhotoGallery) .photoGalleryViewAll span, .dmTabletBody .dmPhotoGallery:not(.newPhotoGallery) .photoGalleryViewAll span {
+    font-size: 20px;
+    vertical-align: sub; }
+.dmMobileBody .dmPhotoGallery:not(.newPhotoGallery) .photoGalleryViewAll {
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+  padding: 6px 0;
+  margin: 5px auto;
+  border: 1px solid #c9c9c9;
+  color: #4d4d4d;
+  background: #EEE;
+  background: linear-gradient(to bottom, #EEE 0%, #DDD 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dddddd',GradientType=0 ); }
+.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner h3,
+.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner p {
+  margin: 0;
+  line-height: normal;
+  text-align: center; }
+.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner h3 {
+  font-size: 21px; }
+.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner p {
+  font-size: 14px; }
+.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner .caption-title, .dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner .caption-text {
+  max-width: 100%; }
+#dm .dmPhotoGallery.newPhotoGallery.hasShadow .thumbnailInnerWrapper {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 11px 0px !important; }
+#dm .dmPhotoGallery.newPhotoGallery.animateVisibility {
+  opacity: 1;
+  transition: all .2s ease-out !important; }
+#dm .dmPhotoGallery.newPhotoGallery.visibilityHidden {
+  opacity: 0; }
+#dm .dmPhotoGallery.newPhotoGallery li {
+  list-style: none; }
+  #dm .dmPhotoGallery.newPhotoGallery li.transparent {
+    opacity: 0; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_left li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_left li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_left li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: left; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_left li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px 0; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_center li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_center li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_center li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: center; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_center li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px auto; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_right li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: end;
+      align-items: flex-end; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_right li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_right li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: right; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-top_right li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px 0; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_left li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: start;
+      align-items: flex-start; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_left li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_left li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: left; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_left li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px 0; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_center li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_center li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_center li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: center; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_center li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px auto; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_right li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: end;
+      align-items: flex-end; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_right li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_right li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: right; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-center_right li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px 0; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_left li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: start;
+      align-items: flex-start; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_left li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_left li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: left; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_left li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px 0; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_center li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_center li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_center li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: center; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_center li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px auto; }
+#dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_right li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_right li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_right li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: right; }
+  #dm .dmPhotoGallery.newPhotoGallery.captionAlignment-bottom_right li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px 0; }
+#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner {
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner h3, #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner p {
+    text-align: center; }
+  #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+    margin: 10px 0; }
+#dm .dmPhotoGallery.newPhotoGallery .photoGalleryViewAll {
+  box-shadow: 0 0 0 0 !important;
+  font-size: inherit !important;
+  margin: 0 !important; }
+#dm .dmPhotoGallery.newPhotoGallery .dmPhotoGalleryHolder {
+  width: 100%;
+  padding: 0;
+  display: none; }
+#dm .dmPhotoGallery.newPhotoGallery .photogallery-row {
+  display: -ms-flexbox;
+  display: flex; }
+  #dm .dmPhotoGallery.newPhotoGallery .photogallery-row.photogallery-hidden-row {
+    display: none; }
+#dm .dmPhotoGallery.newPhotoGallery .flex-reverse {
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+#dm .dmPhotoGallery.newPhotoGallery .flex {
+  display: -ms-flexbox;
+  display: flex; }
+#dm .dmPhotoGallery.newPhotoGallery .column {
+  padding: 0;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+#dm .dmPhotoGallery.newPhotoGallery .width-50 {
+  width: 50%; }
+#dm .dmPhotoGallery.newPhotoGallery .layout-container.square {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+#dm .dmPhotoGallery.newPhotoGallery .layout-container.classic-rounded {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container.classic-rounded .photoGalleryThumbs .image-container {
+    border-radius: 100%; }
+#dm .dmPhotoGallery.newPhotoGallery .layout-container.classic-drops {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container.classic-drops .photoGalleryThumbs .image-container {
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%; }
+#dm .dmPhotoGallery.newPhotoGallery .layout-container.pinterest-rounded .photoGalleryThumbs .image-container {
+  border-radius: 20%; }
+#dm .dmPhotoGallery.newPhotoGallery .layout-container.vertical-rounded .photoGalleryThumbs .image-container {
+  border-bottom-right-radius: 10%; }
+#dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 0;
+  width: 100%;
+  margin: 0; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column.row-direction {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column.column-1 {
+    width: 100%; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column.column-2 {
+    width: 50%; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column.column-3 {
+    width: 33.333%; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column.column-4 {
+    width: 25%; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column.column-5 {
+    width: 20%; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column.column-6 {
+    width: 16.66667%; }
+  #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs {
+    position: relative;
+    overflow: hidden; }
+    #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs .image-container {
+      width: 100%;
+      overflow: hidden;
+      background: url("https://dd-cdn.multiscreensite.com/runtime-img/galleryLoader.gif") no-repeat center; }
+      #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs .image-container.revealed {
+        background: none; }
+      #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs .image-container a {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        background-size: cover;
+        padding-top: 100%; }
+        #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs .image-container a img {
+          display: none; }
+    #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs.asymetric3-long-image .image-container {
+      width: 100%; }
+      #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs.asymetric3-long-image .image-container a {
+        padding-top: 50%; }
+    #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs.pinterest-high .image-container a {
+      padding-top: 125%; }
+    #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs.pinterest-low .image-container a {
+      padding-top: 75%; }
+    #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs.panoramic-height .image-container a {
+      padding-top: 25%; }
+    #dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs.vertical-height .image-container a {
+      padding-top: 200%; }
+#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs {
+  position: relative; }
+  #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .thumbnailInnerWrapper {
+    overflow: hidden;
+    transform: translateZ(0); }
+  #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .image-container {
+    overflow: hidden; }
+    #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .image-container a {
+      background-repeat: no-repeat;
+      background-position: center; }
+  #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 15px;
+    height: 100%;
+    box-sizing: border-box; }
+    #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .rteBlock {
+      font-size: 14px; }
+    #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .caption-button {
+      margin: 10px auto;
+      pointer-events: all;
+      max-width: 100%; }
+      #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .caption-button .text {
+        padding: 10px 20px !important; }
+      #dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .caption-button.displayNone {
+        display: none; }
+#dm .dmPhotoGallery.newPhotoGallery.text-layout-fixed li.photoGalleryThumbs .caption-container {
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+  #dm .dmPhotoGallery.newPhotoGallery.text-layout-fixed li.photoGalleryThumbs .caption-container .caption-inner {
+    background-color: rgba(255, 255, 255, 0.5); }
+#dm .dmPhotoGallery.newPhotoGallery.text-layout-over .photogalleryPaddingThumbnails li.photoGalleryThumbs {
+  margin-bottom: 10px; }
+  #dm .dmPhotoGallery.newPhotoGallery.text-layout-over .photogalleryPaddingThumbnails li.photoGalleryThumbs .caption-container {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: inherit; }
+#dm .dmPhotoGallery.newPhotoGallery.text-layout-over li.photoGalleryThumbs .caption-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  padding: inherit; }
+#dm .dmPhotoGallery.newPhotoGallery.text-layout-over li.photoGalleryThumbs .caption-inner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  box-sizing: border-box;
+  min-height: 0 !important;
+  padding: 10px;
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.3s ease-out; }
+#dm .dmPhotoGallery.newPhotoGallery.text-layout-over li.photoGalleryThumbs.hover .caption-inner, #dm .dmPhotoGallery.newPhotoGallery.text-layout-over li.photoGalleryThumbs:hover .caption-inner {
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  filter: alpha(opacity=100); }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="zoomout"] .photoGalleryThumbs .image-container a {
+  transition: all 0.2s ease-out; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="zoomout"] .photoGalleryThumbs:hover .image-container a {
+  -ms-transform: scale(1.06);
+      transform: scale(1.06); }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="grayscale"] .photoGalleryThumbs .image-container a {
+  filter: grayscale(0%);
+  transition: .2s ease-in-out; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="grayscale"] .photoGalleryThumbs:hover .image-container a {
+  filter: grayscale(100%); }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="reverse-grayscale"] .photoGalleryThumbs .image-container a {
+  filter: grayscale(100%);
+  filter: gray;
+  transition: .2s ease-in-out; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="reverse-grayscale"] .photoGalleryThumbs:hover .image-container a {
+  filter: grayscale(0%); }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="blur"] .photoGalleryThumbs .image-container a {
+  filter: blur(0);
+  transition: .2s ease-in-out; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="blur"] .photoGalleryThumbs:hover .image-container a {
+  filter: blur(3px); }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="grayscale-blur"] .photoGalleryThumbs .image-container a {
+  filter: grayscale(0%) blur(0);
+  transition: .2s ease-in-out; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="grayscale-blur"] .photoGalleryThumbs:hover .image-container a {
+  filter: grayscale(100%) blur(3px); }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="opacity"] .photoGalleryThumbs .image-container a {
+  transition: .2s ease-in-out;
+  opacity: 1; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="opacity"] .photoGalleryThumbs:hover .image-container a {
+  opacity: .7; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="shine"] .photoGalleryThumbs .image-container a {
+  position: relative; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="shine"] .photoGalleryThumbs:hover .image-container a::after {
+  opacity: 1;
+  -ms-transform: translate(0);
+      transform: translate(0); }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="shine"] .photoGalleryThumbs:active .image-container a::after {
+  opacity: 0; }
+#dm .dmPhotoGallery.newPhotoGallery[data-image-hover-effect="shine"] .photoGalleryThumbs .image-container a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transition-property: transform;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.13) 48%, rgba(255, 255, 255, 0.5) 57%, rgba(255, 255, 255, 0) 64%, rgba(255, 255, 255, 0) 100%); }
+#dm .dmPhotoGallery.newPhotoGallery[data-link-gallery="true"] .image-container a {
+  cursor: default; }
+  #dm .dmPhotoGallery.newPhotoGallery[data-link-gallery="true"] .image-container a.has-link {
+    cursor: pointer;
+    z-index: 1px; }
+#dm .dmPhotoGallery.newPhotoGallery .galleryColumn {
+  padding: 0 5px; }
+  #dm .dmPhotoGallery.newPhotoGallery .galleryColumn .photoGalleryThumbs {
+    padding: 0;
+    background-clip: content-box;
+    margin-bottom: 10px; }
+#dm .dmPhotoGallery.newPhotoGallery .rteBlock li {
+  list-style-type: inherit; }
+</style>
+
+
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/9/intl/en_gb/common.js"></script>
+
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/9/intl/en_gb/util.js"></script>
+
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/9/intl/en_gb/stats.js"></script>
+
+
+<style>
+.dmInner {
+    min-height: 0 !important;
+}
+</style>
+
+
+</head>
+<body id="dmRoot" class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite msie dmLargeBody  d1SiteBody dmBodyNoIscroll fullyLoaded" style="padding: 0px; margin: 0px; min-width: 1692px;">
+    
+
+
+        <div id="disabledImageZone" style="display:none;z-index:-1">
+            <style type="text/css">
+                #imageZone {
+                    position: absolute;
+                    margin: auto;
+                }
+                .coloumns {
+                    border-radius: 3px;
+                    background-color: rgb(249, 152, 13); /*border:1px solid #999;*/
+                    height: 18px;
+                    width: 6px;
+                    -webkit-animation-name: loader;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-direction: linear;
+                    -moz-animation-name: loader;
+                    -moz-animation-duration: 1s;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-direction: linear;
+                    opacity: .25;
+                    -webkit-transform: scale(0.7);
+                    -webkit-transform-origin: 50% 180%;
+                    -moz-transform: scale(0.7);
+                    -moz-transform-origin: 50% 180%;
+                    position: absolute;
+                }
+                #coloumn1 {
+                    -webkit-transform: rotate(0deg);
+                    -webkit-animation-delay: -.914s;
+                    -moz-transform: rotate(0deg);
+                    -moz-animation-delay: -.914s;
+                }
+                #coloumn2 {
+                    -webkit-transform: rotate(30deg);
+                    -webkit-animation-delay: -.831s;
+                    -moz-transform: rotate(30deg);
+                    -moz-animation-delay: -.831s;
+                }
+                #coloumn3 {
+                    -webkit-transform: rotate(60deg);
+                    -webkit-animation-delay: -.747s;
+                    -moz-transform: rotate(60deg);
+                    -moz-animation-delay: -.747s;
+                }
+                #coloumn4 {
+                    -webkit-transform: rotate(90deg);
+                    -webkit-animation-delay: -.664s;
+                    -moz-transform: rotate(90deg);
+                    -moz-animation-delay: -.664s;
+                }
+                #coloumn5 {
+                    -webkit-transform: rotate(120deg);
+                    -webkit-animation-delay: -.581s;
+                    -moz-transform: rotate(120deg);
+                    -moz-animation-delay: -.581s;
+                }
+                #coloumn6 {
+                    -webkit-transform: rotate(150deg);
+                    -webkit-animation-delay: -.498s;
+                    -moz-transform: rotate(150deg);
+                    -moz-animation-delay: -.498s;
+                }
+                #coloumn7 {
+                    -webkit-transform: rotate(180deg);
+                    -webkit-animation-delay: -.415s;
+                    -moz-transform: rotate(180deg);
+                    -moz-animation-delay: -.415s;
+                }
+                #coloumn8 {
+                    -webkit-transform: rotate(210deg);
+                    -webkit-animation-delay: -.332s;
+                    -moz-transform: rotate(210deg);
+                    -moz-animation-delay: -.332s;
+                }
+                #coloumn9 {
+                    -webkit-transform: rotate(240deg);
+                    -webkit-animation-delay: -.249s;
+                    -moz-transform: rotate(240deg);
+                    -moz-animation-delay: -.249s;
+                }
+                #coloumn10 {
+                    -webkit-transform: rotate(270deg);
+                    -webkit-animation-delay: -.166s;
+                    -moz-transform: rotate(270deg);
+                    -moz-animation-delay: -.166s;
+                }
+                #coloumn11 {
+                    -webkit-transform: rotate(300deg);
+                    -webkit-animation-delay: -.083s;
+                    -moz-transform: rotate(300deg);
+                    -moz-animation-delay: -.083s;
+                }
+                #coloumn12 {
+                    -webkit-transform: rotate(330deg);
+                    -moz-transform: rotate(330deg);
+                }
+                @-webkit-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+                @-moz-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+            </style>
+            <div id="imageZone">
+                <div id="coloumn1" class="coloumns"></div>
+                <div id="coloumn2" class="coloumns"></div>
+                <div id="coloumn3" class="coloumns"></div>
+                <div id="coloumn4" class="coloumns"></div>
+                <div id="coloumn5" class="coloumns"></div>
+                <div id="coloumn6" class="coloumns"></div>
+                <div id="coloumn7" class="coloumns"></div>
+                <div id="coloumn8" class="coloumns"></div>
+                <div id="coloumn9" class="coloumns"></div>
+                <div id="coloumn10" class="coloumns"></div>
+                <div id="coloumn11" class="coloumns"></div>
+                <div id="coloumn12" class="coloumns"></div>
+            </div>
+        </div>
+
+        <!-- ========= Site Content ========= -->
+        <div id="dm" class="dmwr">
+            
+            <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+                 <div dmwrapped="true" id="1414092820" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="skinnyHeaderLayout" class="skinnyHeaderLayout dm-bfs dm-layout-home hasAnimations dmPageBody dmFreeHeader d-page-1425098286 runtime-module-container" id="dm-outer-wrapper" data-page-class="1425098286" data-buttonstyle="FLAT_ROUND_ICON" data-background-size="cover" data-background-attachment="fixed" data-background-repeat="no-repeat" data-background-position="50% 0%" data-background-image="url(https://dd-cdn.multiscreensite.com/themes/sky-patrol/sky-patrol-hp-main-img.jpg)" data-background-hide-inner="true" data-background-fullbleed="false" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex" data-background-parallax-speed="0.2"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner" style="min-height: 868px;"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true"> <div dm:templateorder="76" class="dmHeaderResp" id="1267493379"> <div class="u_1487797416 dmRespRow dmHeaderContent freeHeaderRowSide hide-for-small" id="1487797416"> <div class="dmRespColsWrapper clearfix" id="1213596186"> <div class="u_1912707853 dmRespCol small-12 dmHeaderCol1 titleMode large-2 medium-2" id="1912707853"> <div class="u_1645323797 imageWidget" editablewidget="true" data-widget-type="image" id="1645323797" data-element-type="image"> <a href="/" id="1381451279" dm_dont_rewrite_url="false" file="false"><img src="https://irp-cdn.multiscreensite.com/22b3e3c9/dms3rep/multi/thumbnail/ruok-logo-retina-1550x460.png" id="1598566096" dm_changed="true" class="u_1598566096" alt="RUOK logo" title="logo" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+ <div class="u_1277945669 dmRespCol small-12 large-10 medium-10" id="1277945669"> <div class="u_1396993506 dmLinksMenuHeader dmLinksMenu desktopNavWrapper" id="1396993506" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="false" data-dmtmpl="true" icon="true" surround="false" adwords="" data-from-nav="true" data-sub-nav="true" data-nav-structure="HORIZONTAL" data-show-vertical-sub-items="HOVER" data-items="-1" data-links-level="0"> <ul class="dmNavWrapper dmn menuContainer"> <li class="desktopTopNav navListLi navButtonLi"> <a href="https://www.ruok.org.au/how-to-ask" class="dmUDNavigationItem_010101649555" target="" data-target-page-alias=""> <span class="navItemText ">HOW TO ASK</span> 
+</a> 
+</li> 
+ <li class="desktopTopNav navListLi navButtonLi   hasdmSub"> <a href="https://www.ruok.org.au/get-involved" class="dmUDNavigationItem_01010162591" target="" data-target-page-alias=""> <span class="navItemText ">GET INVOLVED</span> 
+</a> 
+ <ul class="dmNavigationStyle_1 dmNavigation dmn innerUl " style=""> <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/every-day-resources" class="dmUDNavigationItem_010101594879" target="" data-target-page-alias=""> <span class="navItemText ">EVERY DAY RESOURCES</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/join-r-u-ok-day" class="dmUDNavigationItem_010101708724" target="" data-target-page-alias=""> <span class="navItemText ">JOIN R U OK?DAY</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/conversation-convoy" class="dmUDNavigationItem_010101484862" target="" data-target-page-alias=""> <span class="navItemText ">CONVERSATION CONVOY</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/events" class="dmUDNavigationItem_010101153617" target="" data-target-page-alias=""> <span class="navItemText ">EVENTS</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/work" class="dmUDNavigationItem_010101359776" target="" data-target-page-alias=""> <span class="navItemText ">WORK</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/education" class="dmUDNavigationItem_010101626639" target="" data-target-page-alias=""> <span class="navItemText ">EDUCATION</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/community" class="dmUDNavigationItem_010101276660" target="" data-target-page-alias=""> <span class="navItemText ">COMMUNITY</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/konnect" class="dmUDNavigationItem_010101363505" target="" data-target-page-alias=""> <span class="navItemText ">KONNECT</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/join-a-fundraiser" class="dmUDNavigationItem_010101785254" target="" data-target-page-alias=""> <span class="navItemText ">FUNDRAISING</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/partner-with-us" class="dmUDNavigationItem_010101287448" target="" data-target-page-alias=""> <span class="navItemText ">PARTNER WITH US</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li class="desktopTopNav navListLi navButtonLi   hasdmSub"> <a href="https://www.ruok.org.au/about-us" class="dmUDNavigationItem_02" target="" data-target-page-alias=""> <span class="navItemText ">ABOUT US</span> 
+</a> 
+ <ul class="dmNavigationStyle_1 dmNavigation dmn innerUl " style=""> <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/what-were-about" class="dmUDNavigationItem_010101545053" target="" data-target-page-alias=""> <span class="navItemText ">WHAT WE'RE ABOUT</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/our-story" class="dmUDNavigationItem_010101108729" target="" data-target-page-alias=""> <span class="navItemText ">OUR STORY</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/partners" class="dmUDNavigationItem_010101741868" target="" data-target-page-alias=""> <span class="navItemText ">OUR SUPPORTERS</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/meet-the-board" class="dmUDNavigationItem_010101994062" target="" data-target-page-alias=""> <span class="navItemText ">MEET THE BOARD</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/meet-the-experts" class="dmUDNavigationItem_010101130644" target="" data-target-page-alias=""> <span class="navItemText ">MEET THE EXPERTS</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/people-behind-us" class="dmUDNavigationItem_01010127826" target="" data-target-page-alias=""> <span class="navItemText ">MEET THE AMBASSADORS</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/whoweworkwith" class="dmUDNavigationItem_010101140812" target="" data-target-page-alias=""> <span class="navItemText ">WHO WE WORK WITH</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li class="desktopTopNav navListLi navButtonLi   hasdmSub"> <a href="https://www.ruok.org.au/newsroom" class="dmUDNavigationItem_010101495048" target="" data-target-page-alias=""> <span class="navItemText ">NEWSROOM</span> 
+</a> 
+ <ul class="dmNavigationStyle_1 dmNavigation dmn innerUl " style=""> <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/latest-news" class="dmUDNavigationItem_010101835676" target="" data-target-page-alias=""> <span class="navItemText ">LATEST NEWS</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/your-stories" class="dmUDNavigationItem_010101755841" target="" data-target-page-alias=""> <span class="navItemText ">YOUR STORIES</span> 
+</a> 
+</li> 
+ <li class="dmSub navListLi navButtonLi"> <a href="https://www.ruok.org.au/media-enquiry" class="dmUDNavigationItem_01010121264" target="" data-target-page-alias=""> <span class="navItemText ">MEDIA ENQUIRY</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li class="desktopTopNav navListLi navButtonLi   hasdmSub"> <a href="http://store.ruok.org.au/" class="dmUDNavigationItem_010101596151" target="" data-target-page-alias=""> <span class="navItemText ">MERCHANDISE</span> 
+</a> 
+ <ul class="dmNavigationStyle_1 dmNavigation dmn innerUl " style=""> <li class="dmSub navListLi navButtonLi"> <a href="http://store.ruok.org.au/all" class="dmUDNavigationItem_010101827395" target="" data-target-page-alias=""> <span class="navItemText ">ALL PRODUCTS</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li class="desktopTopNav navListLi navButtonLi"> <a href="https://www.ruok.org.au/donate" class="dmUDNavigationItem_010101927879" target="" data-target-page-alias=""> <span class="navItemText ">DONATE</span> 
+</a> 
+</li> 
+ <li class="desktopTopNav navListLi navButtonLi"> <a href="https://www.ruok.org.au/findhelp" class="dmUDNavigationItem_010101925263" target="" data-target-page-alias=""> <span class="navItemText ">FIND HELP</span> 
+</a> 
+</li> 
+</ul> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+  
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+            </div>
+        </div>
+
+
+</body>
