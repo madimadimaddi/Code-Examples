@@ -1,0 +1,325 @@
+<html lang="en" class="js static detail-taxonomy-navigations-term contents htmlimports no-ie8compat svg csspositionsticky srcset inlinesvg svgasimg checked fontface flexbox flexboxlegacy no-flexboxtweener datauri" style="">
+
+<head>
+  
+
+
+
+ 
+    <!--[if lt IE 9]> <script type="text/javascript" src="https://cdn.worldnomads.net/Media/Default/js/wnstyles/js-head-ie8.min.js?20180508"></script> <![endif]-->
+
+    <!--[if (gte IE 9) | (!IE)]><!-->
+    <script type="text/javascript" src="https://cdn.worldnomads.net/Media/Default/js/wnstyles/js-head.min.js?20180508"></script>
+    <!--<![endif]-->
+
+
+<link href="https://cdn.worldnomads.net/Media/Default/css/wnstyles/wng-wn-styles-1.12.9.min.css" rel="stylesheet" type="text/css">
+
+      </head>
+
+<body class="">
+    
+    
+<div>
+    <div class="taxonomy-navigations-term" id="layout-wrapper">
+    <div>
+<div class="zone zone-header">
+<article class="widget-header widget-kosmos-nav-widget widget">
+    
+
+
+<header class="Header">
+    <a href="/" class="Header-logo BrandLogo BrandLogo--reverse" title="World Nomads">
+        <span class="BrandLogo-img"></span>
+        <span class="BrandLogo-fallback"></span>
+    </a>
+    <nav class="Header-nav">
+        <a class="Header-navItem is-small" href="/travel-insurance/">Travel Insurance</a>
+        <a class="Header-navItem is-small" href="//www.worldnomads.com/travel-safety">Travel Smart</a>
+        <a class="Header-navItem is-medium" href="//www.worldnomads.com/create">Create</a>
+        <a class="Header-navItem is-large" href="http://answers.worldnomads.com">Community</a>
+        <a class="Header-navItem is-large" href="//www.worldnomads.com/make-a-difference/">Change Lives</a>
+        <a class="Header-navItem is-small" href="https://helpdesk.worldnomads.com">Help Desk</a>
+        <a class="Header-navItem is-mobile" href="//www.worldnomads.com/Member/">Sign In</a>
+        <button id="headerNavToggle" class="NavToggle icon-wn-bars"></button>
+    </nav>
+</header>
+
+<nav id="sideNav" class="SideNav SideNav-is-hidden">
+    <div class="SideNav-header">
+        <!-- <a class="SideNav-navItem" href="#">Existing Member?</a> -->
+        <button id="sideNavToggle" class="NavToggle icon-wn-bars"></button>
+        <a class="SideNav-navItem SideNav-signIn" href="//www.worldnomads.com/Member/">Sign In</a>
+    </div>
+    <ul class="SideNav-content">
+        <li>
+            <a class="SideNav-contentItem" href="/travel-insurance/">
+                <span class="SideNav-icon icon-wn-umbrella"></span>
+                <span class="SideNav-contentTitle">Travel Insurance</span>
+                <span class="SideNav-contentCopy">Simple &amp; flexible travel insurance for your next adventure.</span>
+            </a>
+        </li>
+        <li>
+            <a class="SideNav-contentItem" href="//www.worldnomads.com/travel-safety">
+                <span class="SideNav-icon icon-wn-lightbulb"></span>
+                <span class="SideNav-contentTitle">Travel Smart</span>
+                <span class="SideNav-contentCopy">Insights to help you navigate the risks &amp; find the safer path.</span>
+            </a>
+        </li>
+        <li>
+            <a class="SideNav-contentItem" href="//www.worldnomads.com/explore">
+                <span class="SideNav-icon icon-wn-navigation"></span>
+                <span class="SideNav-contentTitle">Explore</span>
+                <span class="SideNav-contentCopy">Discover your next adventure with tips &amp; advice from the locals.</span>
+            </a>
+        </li>
+        <li>
+            <a class="SideNav-contentItem" href="//www.worldnomads.com/create">
+                <span class="SideNav-icon icon-wn-trifold"></span>
+                <span class="SideNav-contentTitle">Create</span>
+                <span class="SideNav-contentCopy">Opportunities to travel &amp; create.</span>
+            </a>
+        </li>
+        <li>
+            <a class="SideNav-contentItem" href="http://answers.worldnomads.com">
+                <span class="SideNav-icon icon-wn-speachbubble"></span>
+                <span class="SideNav-contentTitle">Community</span>
+                <span class="SideNav-contentCopy">Tap into the knowledge of other travellers or share your expertise.</span>
+            </a>
+        </li>
+        <li>
+            <a class="SideNav-contentItem" href="//www.worldnomads.com/make-a-difference/">
+                <span class="SideNav-icon icon-wn-heart"></span>
+                <span class="SideNav-contentTitle">Change Lives</span>
+                <span class="SideNav-contentCopy">Discover how travellers have helped change peoples lives.</span>
+            </a>
+        </li>
+        <li>
+            <a class="SideNav-contentItem" href="https://helpdesk.worldnomads.com">
+                <span class="SideNav-icon icon-wn-roaddirections"></span>
+                <span class="SideNav-contentTitle">Help Desk</span>
+                <span class="SideNav-contentCopy">Everything you need to know. We're here to help.</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+</article></div>
+
+
+<div class="zone zone-full-width-designer">        <section class="Hero Hero--bg Hero--image" id="travelInsurance">
+            <div class="Hero-inner">
+                <div class="Hero-column">
+                    <div class="Hero-intro">
+                            <div class="Hero-media" style="background-image: url('https://cdn.worldnomads.net/Media/Default/css/wnstyles/img/create/wn-create-hero.jpg')"></div>
+                        <ol id="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList" class="Hero-breadcrumb BreadCrumb BreadCrumb--reverse">
+                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                <a itemprop="item" href="/">
+                                    <span itemprop="name">World Nomads</span>
+                                </a>
+                                <meta itemprop="position" content="1">
+                            </li>
+                                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                        <a itemprop="item" href="/travel-safety" class="current">
+                                            <span itemprop="name">Videos</span>
+                                        </a>
+                                    <meta itemprop="position" content="2">
+                                </li>
+                        </ol>
+
+                            <h1 class="Hero-title Hero-copy CopyBreak CopyBreak--reverse CopyBreak--centered CopyBreak--thick">
+                                Video Library
+                            </h1>
+                            <div class="Hero-content">
+                                <p class="Hero-standfirst Hero-copy standfirst">Explore unknown places with our experts and get travel tips for your next adventure</p>
+                                <a class="Hero-cta button alt-light arrow small" href="/">Browse Series</a>
+                            </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="segment-pad">
+            <div class="flexrow">
+                <div class="col-sm-12">
+                    <h2>Featured Videos</h2>
+       <div data-experience="5b42c5d71edd4e00199b1e1d"></div>
+<script src="https://players.brightcove.net/5486793334001/experience_5b42c5d71edd4e00199b1e1d/live.js"></script>
+
+<h2>Tips and Tricks</h2>
+
+<div data-experience="5b42c9439768a6001a9409eb"></div>
+<script src="https://players.brightcove.net/5486793334001/experience_5b42c9439768a6001a9409eb/live.js"></script>
+
+
+       
+<h2>All Videos</h2>
+
+<div data-experience="5b42ca689768a6001a9409ef"></div>
+<script src="https://players.brightcove.net/5486793334001/experience_5b42ca689768a6001a9409ef/live.js"></script>
+
+
+
+</div>
+            </div>
+
+
+
+
+            
+
+        </section>
+
+        
+</div>
+                        <footer>
+            <div id="footer">
+<div class="zone zone-footer">
+<div class="user-display">
+</div>
+<article class="widget-footer widget-raw-html-widget widget">
+    <!-- Footer -->
+<footer class="Footer">
+    <div class="Footer-nav Pattern Pattern--monoDark">
+        <div class="flexrow">
+            <div class="col-sm-12 col-md-3 col-lg-6">
+                <a href="/">
+                    <img class="Footer-logo" src="//cdn.worldnomads.net/Themes/NomadsFoundation/styles/images/wn-logo-keep-travelling.png">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+                <ul class="Footer-menu">
+                    <li class="Footer-menuItemTitle">World Nomads</li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="/travel-insurance/">Travel Insurance</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="/travel-insurance/travel-insurance-quote">Get a Quote</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/travel-safety">Travel Smart</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/explore">Explore</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/create">Scholarships</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//answers.worldnomads.com">Community</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/make-a-difference">Change Lives</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+                <ul class="Footer-menu">
+                    <li class="Footer-menuItemTitle">About Us</li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/who-we-are">Who we are</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/in-the-news">In the News</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="https://partner.worldnomads.com">Partners</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="http://careers.worldnomadsgroup.com/">Careers</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/sitemap">Site map</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/terms-of-use">Terms of use</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/privacy">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+                <ul class="Footer-menu">
+                    <li class="Footer-menuItemTitle">Need Help?</li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/travel-insurance/emergency-assistance">Help &amp; Emergencies</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/travel-insurance-claims">Make a claim</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//service.worldnomads.com">Help Desk</a>
+                    </li>
+                    <li class="Footer-menuItem">
+                        <a class="Footer-menuItemLink" href="//www.worldnomads.com/contact-us">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flexrow">
+            <div class="col-sm-12 col-md-6 Footer-spacer">
+                <div class="Footer-membership">
+                    Already a member? <a class="Footer-membershipSignIn" href="https://www.worldnomads.com/Member">Sign In</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 Footer-spacer">
+                <ul class="Footer-social">
+                    <li class="Footer-socialTitle">Follow us on</li>
+                    <li class="Footer-socialIcon">
+                        <a class="icon-wn-twitter Icon--sml Icon--circle Icon--reverse Icon--nav" href="https://twitter.com/worldnomads"></a>
+                    </li>
+                    <li class="Footer-socialIcon">
+                        <a class="icon-wn-facebook Icon--sml Icon--circle Icon--reverse Icon--nav" href="https://www.facebook.com/worldnomads"></a>
+                    </li>
+                    <li class="Footer-socialIcon">
+                        <a class="icon-wn-youtube Icon--sml Icon--circle Icon--reverse Icon--nav" href="http://www.youtube.com/user/WorldNomadsTV"></a>
+                    </li>
+                    <li class="Footer-socialIcon">
+                        <a class="icon-wn-instagram Icon--sml Icon--circle Icon--reverse Icon--nav" href="http://instagram.com/worldnomads/"></a>
+                    </li>
+                    <li class="Footer-socialIcon">
+                        <a class="icon-wn-pinterest-p Icon--sml Icon--circle Icon--reverse Icon--nav" href="http://www.pinterest.com/worldnomads/"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Footer-disclaimer flexrow">
+        <div class="col-sm-12">
+            <small class="Footer-disclaimerCopy">
+All of the information we provide about travel insurance is a brief summary only. It does not include all terms, conditions, limitations, exclusions and termination provisions of the travel insurance plans described. Coverage may not be available for residents of all countries, states or provinces. Please carefully read your policy wording for a full description of coverage.
+<br><br>
+WorldNomads.com Pty Limited (ABN 62 127 485 198 AR 343027) at Level 21, 680 George St, Sydney, NSW, 2000, Australia is an Authorised Representative of Cerberus Special Risks Pty Limited (ABN 81 115 932 173 AFSL 308461) and is underwritten by certain underwriters at Lloyd's. WorldNomads.com Pty Limited markets and distributes insurance products of Bupa Denmark, filial af Bupa Insurance Limited, England, Palaegade 8, DK 1261 Copenhagen K, Denmark, CVR 31602742, which is authorised by the Prudential Regulation Authority (UK) and subject to limited regulation by the Danish Financial Services Authority Finanstilsynet (DK). World Nomads Limited (05443592) is an Appointed Representative of Millstream Underwriting Limited (FCA Firm ref: 308584) at 52-56 Leadenhall Street, London, EC3A 2DX, United Kingdom. World Nomads Inc. (1585422), at 520 3rd Street, Suite 201, Oakland, CA 94607, plans are administered by Trip Mate Inc. (in CA &amp; UT, dba, Trip Mate Insurance Agency) at 9225 Ward Parkway, Suite 200, Kansas City, MO, 64114, USA, with 24-hour and Assistance Services provided by One Call Worldwide Travel Services Network, Inc. and plans underwritten by Nationwide Mutual Insurance Company and affiliated companies, Columbus, OH. World Nomads (Canada) Ltd (BC: 0700178; Business No: 001 85379 7942 RC0001) is a licensed agent sponsored by AIG Insurance Company of Canada at 120 Bremner Boulevard, Suite 2200, Toronto, Ontario, M5J 0A8, Canada. World Experiences Seguros De Viagem Brasil Ltda (CNPJ: 21.346.969/0001-99) at Rua Padre João Manuel, 755, 16º andar, São Paulo – SP, Brazil is an Authorized Partner (Representante) of Zurich Minas Brasil Seguros S.A. (CNPJ: 17.197.385/0001-21) at Av. Getúlio Vargas, 1420, 5th floor, Funcionários, Belo Horizonte, State of Minas Gerais through the SUSEP Process 15414.901107/2015-77.
+
+            </small>
+        </div>
+    </div>
+</footer>
+
+<!-- Overriding legacy footer pattern -->
+<style>
+footer .footer-background { background: #2a2b29;}
+body.purchase-path .header-panel, body.purchase-path.quote .header-panel {background: #094f90;}
+</style>
+</article>
+<article class="widget-cookieAlert widget-footer widget-html-widget widget">
+    <div id="alertNotifications" class="AlertNotifications">
+    
+</div>
+
+
+</article></div>            </div>
+        </footer>
+    </div>
+    </div>
+</div>
+
+
+    <!--[if lt IE 9]> <script type="text/javascript" src="https://cdn.worldnomads.net/Media/Default/js/wnstyles/js-main-ie8.js?20180508"></script> <![endif]-->
+    <!--[if (gte IE 9) | (!IE)]><!-->
+    <script type="text/javascript" src="https://cdn.worldnomads.net/Media/Default/js/wnstyles/js-main.min.js?20180508"></script>
+    <script type="text/javascript">
+        $(document).foundation();
+    </script>
+
+</body></html>
